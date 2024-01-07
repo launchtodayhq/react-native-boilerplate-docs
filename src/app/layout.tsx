@@ -1,5 +1,5 @@
 import { type Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Anybody, Inter } from 'next/font/google'
 import localFont from 'next/font/local'
 import clsx from 'clsx'
 
@@ -12,6 +12,12 @@ const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-inter',
+})
+
+const anybody = Anybody({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-anybody',
 })
 
 // Use local version of Lexend so that we can use OpenType features
@@ -38,7 +44,12 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={clsx('h-full antialiased', inter.variable, lexend.variable)}
+      className={clsx(
+        'h-full antialiased',
+        inter.variable,
+        lexend.variable,
+        anybody.variable,
+      )}
       suppressHydrationWarning
     >
       <body className="flex min-h-full bg-white dark:bg-slate-900">

@@ -73,7 +73,7 @@ functionality. This could involve implementing a local key on the user's device 
 
 For more information, please refer to the Frequently Asked Questions [section](https://aptabase.com/for-react-native) of the Aptabase docs.
 
-### Demo
+## Demo
 
 Once you've created the correct table and storage bucket in Supabase, you should be able to persist and manipulate data from the app as
 shown in the demo [here](https://www.veed.io/embed/888b2aef-ba6e-4cb0-a747-8315b9ccf4ff).

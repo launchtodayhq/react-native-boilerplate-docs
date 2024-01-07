@@ -4,21 +4,10 @@ title: Hello, and welcome 👋
 
 Welcome to the LaunchToday documentation. Here, you will find essential information on the React Native boilerplate, including guidance on getting started, explanations of integrations, best practices and resources to assist you in building your app. {% .lead %}
 
-<!-- {% quick-links %}
-
-{% quick-link title="Installation" icon="installation" href="/docs/installation" description="Step-by-step guides to setting up your system and installing the library." /%}
-
-{% quick-link title="Architecture guide" icon="presets" href="/" description="Learn how the internals work and contribute." /%}
-
-{% quick-link title="Plugins" icon="plugins" href="/" description="Extend the library with third-party plugins or write your own." /%}
-
-{% quick-link title="API reference" icon="theming" href="/" description="Learn to easily customize and modify your app's visual design to fit your brand." /%}
-
-{% /quick-links %} -->
-
 ---
 
 ## Quick Recap
+
 LaunchToday is a React Native boilerplate app designed to help startups and indie developers build and launch their mobile apps fast. It shifts the focus away from extensive setup, incorporating practical features such as authentication, payments, data handling, analytics, real-time alerts and push notifications.
 
 This boilerplate is organized into two GitHub repositories. The primary repository contains the complete React Native application code showcasing integrations with [Supabase](https://supabase.com/), [Stripe](https://stripe.com/), [RevenueCat](https://www.revenuecat.com/), [Sentry](https://sentry.io/), and [Aptabase](https://aptabase.com/).
@@ -30,11 +19,11 @@ processing payments with Stripe and sending push notifications with Firebase and
 This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
 {% /callout %} -->
 
-### Join the community
+## Join the community
 
 Additionally, support is provided through a dedicated [Discord](https://discord.gg/beEm3hcc) channel where you can seek assistance, learn more about the boilerplate, and engage with the community.
 
-### Getting started
+## Getting started
 
 The first step is to go through a brief overview of the codebase and it's dependencies.
 

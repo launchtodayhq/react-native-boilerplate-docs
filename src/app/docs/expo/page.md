@@ -14,13 +14,13 @@ app directly on your local device.
 
 ## Initial Steps
 
-### 1. Create an Expo Account
+## 1. Create an Expo Account
 
 Visit the Expo website and sign up to create a new account. After successful registration, proceed to your dashboard.
 
 ![Expo Setup](/images/expo-setup.png)
 
-### 2. Initailise the project
+## 2. Initailise the project
 
 In the dashboard, you will be prompted to either create a new Expo project or link to an existing project. Given that this
 boilerplate provides the source code, you are only required to link to the existing codebase.

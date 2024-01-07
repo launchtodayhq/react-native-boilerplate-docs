@@ -72,11 +72,11 @@ As a result, you will see both a new table named **profiles** and a bucket named
 
 ![Storage Bucket](/images/storage-bucket.png)
 
-### How does the app communicate with the database and the storage bucket?
+## How does the app communicate with the database and the storage bucket?
 
 The procedures for adding and modifying data within the Postgres database and associated storage bucket are outlined in the file **profile.tsx**. This particular screen displays a straightforward profile page, complete with fields corresponding to database columns and a section for a profile photo, which is saved in the storage bucket.
 
-#### fetchProfile()
+### fetchProfile()
 
 When **Profile** screen first renders, a call to fetch a row from the **profiles** table based on the session ID is performed. Fetching data
 from tables resembles writing a SQL query where you define the **from** table, the columns you require using **select** and
@@ -90,7 +90,7 @@ await supabase
   .single()
 ```
 
-#### updateProfile()
+### updateProfile()
 
 Updating a row in the table follows a similar structure - you define the **from** table and you pass an object to **upsert** where the
 object key is the column name, and object value is the value to be updated. **upsert** performs an update if the row exists, or inserts
@@ -112,11 +112,11 @@ const { error } = await supabase
 
 You can read more about the database methods available on the Supabase documentation for the **@supabase/supabase-js** library [here](https://supabase.com/docs/reference/javascript/initializinghere).
 
-### Recommendation
+## Recommendation
 
 This boilerplate includes basic examples of how to interact with your Supabase database. For a swift setup, it is advisable to begin with the User Management Quickstart to grasp the underlying principles of the operations. Those with more experience in app development and database management are encouraged to modify the existing logic or even create new tables and columns to suit their needs. Just make sure to configure the appropriate environment variables before proceeding.
 
-### Demo
+## Demo
 
 Once you've created the correct table and storage bucket in Supabase, you should be able to persist and manipulate data from the app as
 shown in the demo [here](https://www.veed.io/embed/3f9d02e3-466f-48c5-96bd-f029d46fb6b8).

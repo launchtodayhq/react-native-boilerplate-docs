@@ -20,7 +20,7 @@ There are three items availabile that are displayed on a paywall:
 All the code - including the screens to navigate to this example and the RevenueCat integration - are all included in the boilerplate. This
 guide focuses on setting up the necessary products for RevenueCat to feed into the app via a paywall.
 
-### Create in-app purchases in App Store Connect
+## Create in-app purchases in App Store Connect
 
 Once you have added your app to App Store Connect, create an in-app purchase. We are going to create the three items that are displayed on the
 paywall. Set the **Type**, **Reference Name** and **Product ID** as follows:
@@ -50,7 +50,7 @@ Complete this process for the remaining **Crystal Ball** and **Spell Book** item
 
 ![Stripe Sequence](/images/drafts.png)
 
-### Import in-app purchases into RevenueCat
+## Import in-app purchases into RevenueCat
 
 Once you've completed the setup of in-app purchases in App Store Connect, the next step is to import the three products into RevenueCat. You can automatically
 import the as shown below (this is made possbile by using the App Store Connect API you setup [earlier](/inapp-purchases/RevenueCat-setup))
@@ -62,7 +62,7 @@ set this up later):
 
 ![Stripe Sequence](/images/revenue-cat-products.png)
 
-### Creating entitlements for the products
+## Creating entitlements for the products
 
 Next, we'll want to setup entitlements. Create a new entitlement for each of the three products we created earlier. Each entitlement requires
 an identifier and a description - ensure the entitlement is a human readable value (this is the product name your customer will see on the paywall), and
@@ -82,7 +82,7 @@ Create the remaining entitlements and attach the correct products as outlined be
 | Crystal Ball  | Spell Book    | Increases Spell Damage by 50%    | magical_staff_3_99 |
 | Spell Book    | Magical Staff | Increases Attack Strength by 30% | spell_book_5_99    |
 
-### Creating offerings for the entitlements
+## Creating offerings for the entitlements
 
 Lastly, create an offering for your entitlements:
 
@@ -101,7 +101,7 @@ from the Actions column of the offering:
 Once you have created the offerings for all 3 products we initially created and imported, you can test the in-app purchase on your
 physical device.
 
-### Testing on physical devices
+## Testing on physical devices
 
 To test on your physical iPhone, follow these instructions:
 

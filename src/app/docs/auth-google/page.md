@@ -45,12 +45,12 @@ There are three steps to enabling sign in with Google:
 
 Please follow the steps in this order to conigure this sign up option correctly.
 
-#### Create a project in Google Cloud Console
+### Create a project in Google Cloud Console
 
 The first step to enabling sign in with Google is creating a project in the Google Cloud Console. You can follow [this](https://www.youtube.com/watch?v=27Pb5g7bEAA)
 video as an example. Once you create a project, the next step is to update the OAuth Consent Screen settings.
 
-#### OAuth Consent Screen
+### OAuth Consent Screen
 
 The OAuth Consent Screen is a temporary screen that allows users to log into their Google account. It specifies the name of the app
 and what permissions that app has on your Google account. First, navigate to the OAuth Consent Screen and set the User Type to **External**:
@@ -77,7 +77,7 @@ contact information:
 
 Once complete, you can click **Save and continue** on the remaining sections of the OAuth consent screen.
 
-#### OAuth 2.0 Client IDs
+### OAuth 2.0 Client IDs
 
 The next step is to create the OAuth 2.0 Client ID and setting this in Supabase. Selcting the the Credentials tab in the Google Cloud Console,
 click **Create Credentials** and select **OAuth client ID**.

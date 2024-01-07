@@ -36,7 +36,7 @@ yarn
 cp.env.example.env
 ```
 
-### Launching the service
+## Launching the service
 
 You should be able to run the service by running:
 
@@ -51,7 +51,7 @@ see the following response:
 'Hello, this endpoint works! 🎉'
 ```
 
-### API Functionality
+## API Functionality
 
 In **src/routes/stripe.ts**, the **/createPaymentIntent** endpoint is designed to:
 
@@ -61,7 +61,7 @@ In **src/routes/stripe.ts**, the **/createPaymentIntent** endpoint is designed t
 
 In **src/routes/notifications/notifications.ts**, the **/notifications** endpoint is designed to send a push notification to a device given the device type (iOS or Android) and the device token. For iOS devices, Apple Push Notification Service is used; for Android, Firebase is configured.
 
-### Middleware use
+## Middleware use
 
 Middleware logic is introduced in **src/authMiddleware.ts** to ensure that all payment transactions are initiated by verified users. It checks for a valid
 token and if authentication fails, the request is terminated with a 401 status code. The middleware is crucial for maintaining

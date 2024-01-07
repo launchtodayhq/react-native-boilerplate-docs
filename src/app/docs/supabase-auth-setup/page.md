@@ -11,7 +11,7 @@ The first step to setting up authentication is updating the Site URL's and Redir
 
 ## Setting up the Site URL's and Redirect URL's
 
-#### Site URLs
+### Site URLs
 
 In Supabase, you need to set the Site URL in the URL configuration section of your app (the link should be **https://supabase.com/dashboard/project/<PROJECT_ID>/auth/url-configuration**).
 The Site URL represents the default URL that the user will be redirected to after:
@@ -39,7 +39,7 @@ ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}'
 
 The port needs to be **8081** as this is the port the expo server is running on. For production, refer to [this guide](/production).
 
-#### Redirect URLs
+### Redirect URLs
 
 The last step is to set the redirect URL's in Supabase. These URLs ensure that the browser (when signing in with Google) knows where exactly
 to navigate back to when the authentication completes. The format of the URLs are the your **bundleIdentifier** or **package** value

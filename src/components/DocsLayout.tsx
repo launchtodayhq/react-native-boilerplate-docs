@@ -26,7 +26,7 @@ export function DocsLayout({
         </article>
         <PrevNextLinks />
       </div>
-      <TableOfContents tableOfContents={tableOfContents} />
+      {/* <TableOfContents tableOfContents={tableOfContents} /> */}
     </>
   )
 }

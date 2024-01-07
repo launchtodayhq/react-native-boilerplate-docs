@@ -15,7 +15,7 @@ The codebase is split into distinct directories each serving a clear purpose:
 
 - Within the **components** directory, you will find reusable elements like buttons and higher-order components (HOCs), which are the building blocks for creating a consistent and dynamic user experience. The **src** directory is dedicated to the business logic of the application. It manages communication with external services like Supabase and RevenueCat through custom hooks
 
-- At the root level, the structure is punctuated with critical configuration files. `app.json`` and `eas.json``are used for configuring the Expo framework. The`.env`file manages key environment variables, ensuring secure and flexible configuration management, while`google-services.json` is key for integrating Firebase, providing a suite of backend services that enhance the app's functionality.
+- At the root level, the structure is punctuated with critical configuration files. **app.json** and **eas.json** are used for configuring the Expo framework. The **.env**file manages key environment variables, ensuring secure and flexible configuration management, whil e**google-services.json** is key for integrating Firebase, providing a suite of backend services that enhance the app's functionality.
 
 ![Project Structure](/images/project-structure.jpg)
 

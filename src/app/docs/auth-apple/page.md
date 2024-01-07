@@ -23,7 +23,7 @@ Upon a successful login, **AppleAuthentication.signInAsync()** returns an object
 Token (JWT) that securely communicates information about the user to your app. Using this token, we call the Supabase API to sign in the
 user using **supabase.auth.signInWithIdToken()** (this returns an access token which can be used to authenticate with your APIs).
 
-### Enabling Sign in with Apple for your project
+## Enabling Sign in with Apple for your project
 
 The first step to enabling signing in with Apple is to enable the Apple Auth Provider in Supabase (the link to this page should be
 https://supabase.com/dashboard/project/PROJECT-ID/auth/providers):

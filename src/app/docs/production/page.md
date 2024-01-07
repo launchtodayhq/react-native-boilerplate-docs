@@ -17,7 +17,7 @@ In your **app.json**, the iOS **bundleIdentifier** and the Android **package** i
 These values need to be updated to match your app. The format for these values is **com.<COMPANY_NAME>.<APP_NAME>**. Once you've updated
 the **app.json** with the new identifiers, following these instructions:
 
-### For iOS
+## For iOS
 
 1. delete the **ios**
 2. run **expo run:ios** - this will recreate the **ios** directory. You will be prompted to confirm the bundle identifier for the app
@@ -26,7 +26,7 @@ the **app.json** with the new identifiers, following these instructions:
 5. for Android, run **expo run:android** - this will recreate the **android** directory. Again, you will be prompted to confirm the bundle identifier for the app
 6. for Android, you need to re-upload the **SHA** certificate since it was deleted in step 1. Follow the instructions [here](/authentication/google#oauth-20-client-ids) (the set the SHA-1 signing certificate fingerprint part)
 
-### For Android
+## For Android
 
 1. delete the **android** directory
 2. for Android, run **expo run:android** - this will recreate the **android** directory. Again, you will be prompted to confirm the bundle identifier for the app

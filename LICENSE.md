@@ -21,7 +21,7 @@ You **cannot**:
 - Share your access to the Components and Templates with any other individuals.
 - Use the Components and Templates to produce anything that may be deemed by Tailwind Labs Inc, in their sole and absolute discretion, to be competitive or in conflict with the business of Tailwind Labs Inc.
 
-### Example usage
+## Example usage
 
 Examples of usage **allowed** by the license:
 
@@ -42,7 +42,7 @@ Examples of usage **not allowed** by the license:
 
 In simple terms, use Tailwind UI for anything you like as long as it doesn't compete with Tailwind UI.
 
-### Personal License Definitions
+## Personal License Definitions
 
 Licensee is the individual who has purchased a Personal License.
 
@@ -75,7 +75,7 @@ You **cannot**:
 - Use the Components or Templates to create End Products that are the property of any individual or entity other than the Licensee or Clients of the Licensee.
 - Use the Components or Templates to produce anything that may be deemed by Tailwind Labs Inc, in their sole and absolute discretion, to be competitive or in conflict with the business of Tailwind Labs Inc.
 
-### Example usage
+## Example usage
 
 Examples of usage **allowed** by the license:
 
@@ -94,7 +94,7 @@ Examples of use **not allowed** by the license:
 - Creating an admin panel tool (like [Laravel Nova](https://nova.laravel.com/) or [ActiveAdmin](https://activeadmin.info/)) that is made available either for sale or for free.
 - Creating any End Product that is not the sole property of either your company or a client of your company. For example your employees/contractors can't use your company Tailwind UI license to build their own websites or side projects.
 
-### Team License Definitions
+## Team License Definitions
 
 Licensee is the business entity who has purchased a Team License.
 

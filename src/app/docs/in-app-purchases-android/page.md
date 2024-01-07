@@ -1,8 +1,8 @@
 ---
-title: In-app Purchases on iOS
+title: In-app Purchases on Android
 nextjs:
   metadata:
-    title: In-app Purchases on iOS
+    title: In-app Purchases on Android
     description: Setting up RevenueCat with the React Native Boilerplate
 ---
 
