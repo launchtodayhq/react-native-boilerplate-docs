@@ -20,13 +20,13 @@ export function Hero() {
               priority
             />
             <div className="relative">
-              <p className="inline bg-gradient-to-r from-[#DFF1EF] to-[#6FA09A]  bg-clip-text font-display text-5xl font-bold tracking-tight text-transparent">
-                Launch your next mobile app with the React Native boilerplate
-              </p>
-              <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                The Expo and React Native boilerplate with all you need to
-                launch your next mobile app. Ships with payments, auth,
-                database, push notifications and more.
+              <h1 className="inline bg-gradient-to-r from-[#DFF1EF] to-[#6FA09A]  bg-clip-text font-display text-5xl font-bold tracking-tight text-transparent">
+                Ship your mobile apps faster. Your users are waiting...
+              </h1>
+              <p className="mt-3 text-2xl tracking-tight text-[#DDEFED]">
+                The Expo and React Native boilerplate with all you need to build
+                your next mobile app. Pre-built features including auth,
+                payments, data handling, push notifications and more.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href="/">Get started</Button>

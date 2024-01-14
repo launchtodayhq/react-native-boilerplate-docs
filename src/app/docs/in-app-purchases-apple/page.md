@@ -6,12 +6,7 @@ nextjs:
     description: Setting up RevenueCat with the React Native Boilerplate
 ---
 
-## In-app Purchases with iOS
-
-In-app purchases are one-off items that your customers can purchase. They are created in App Store Connect and
-made availabile in your app with RevenueCat. This part of the guide will focus on the complete setup of in-app purchases with iOS. We will
-take the example of a wizard-style app where you can purchase individual consumable and non-consumable items for your wizard.
-There are three items availabile that are displayed on a paywall:
+In-app purchases are one-off items that your customers can purchase. They are created in App Store Connect and made availabile in your app with RevenueCat. This part of the guide will focus on the complete setup of in-app purchases with iOS. We will take the example of a wizard-style app where you can purchase individual consumable and non-consumable items for your wizard. There are three items availabile that are displayed on a paywall:
 
 1. Magical Staff (consumable)
 2. Crystal Ball (consumable)

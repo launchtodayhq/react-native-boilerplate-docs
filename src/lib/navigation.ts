@@ -78,14 +78,14 @@ export const navigation = [
       },
       {
         title: 'Subscriptions with Apple',
-        href: '/docs/subscriptions-android',
+        href: '/docs/subscriptions-apple',
       },
       {
-        title: 'In-app Purchases with Google',
+        title: 'In-app Purchases with Google (Coming Soon)',
         href: '/docs/in-app-purchases-google',
       },
       {
-        title: 'Subscriptions with Google',
+        title: 'Subscriptions with Google (Coming Soon)',
         href: '/docs/subscriptions-android',
       },
     ],
