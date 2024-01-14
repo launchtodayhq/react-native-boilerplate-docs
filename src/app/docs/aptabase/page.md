@@ -1,8 +1,8 @@
 ---
-title: Architecture guide
+title: Aptabase Analytics
 nextjs:
   metadata:
-    title: Architecture guide
+    title: Aptabase Analytics
     description: Setting up Aptabase with the React Native Boilerplate
 ---
 

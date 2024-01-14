@@ -57,7 +57,7 @@ export const navigation = [
     ],
   },
   {
-    title: 'Push Notifications',
+    title: 'Push Notifications (Coming Soon)',
     links: [
       {
         title: 'Setting up Push Notifications',

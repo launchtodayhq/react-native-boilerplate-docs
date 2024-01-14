@@ -1,5 +1,5 @@
 ---
-title: Push Notifications for iOS and Android
+title: Push Notifications for iOS and Android (Coming soon)
 nextjs:
   metadata:
     title: Push Notifications
