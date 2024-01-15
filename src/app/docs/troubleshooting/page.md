@@ -13,24 +13,13 @@ support.
 
 ## Unmatched Route: Page could not be found
 
-After setting up the boilerplate app (and ensruing you have created the **.env** file), you may see the following error:
-
-![Unmatched Route Error](/images/unmatched-route-error.png)
-
-This is a result of not adding the correct values in the environment variables. Please complete the setup of all the integrations
-and update the **.env** file accordingly and you should be able to navigate between the screens.
+After setting up the boilerplate app (and ensruing you have created the **.env** file), you may encounter a screen that shows **Unmatched Route - Page could not be found**. This is a result of not adding the correct values in the environment variables. Please complete the setup of all the integrations and update the **.env** file accordingly and you should be able to navigate between the screens.
 
 ## Invalid Sentry Dsn: sentry.dsn Error
 
-If, after integrating [Supabase](/supabase-setup) and running the app on iOS or Android, you come across the error shown below:
+If, after integrating [Supabase](/supabase-setup) and running the app on iOS or Android, you come across the default error screen with the message **Invalid Sentry Dsn: sentry.dsn**. Please be advised it is safe to dismiss the error if you have not completed the [Sentry setup](/monitoring) process.
 
-![Sentry DSN Error](/images/sentry-error.png)
-
-Please be advised it is safe to dismiss the error if you have not completed the [Sentry setup](/monitoring) process.
-
-For those who have not configured Sentry, this error should not affect the functionality of your application. It appears
-because the app is attempting to link to a Sentry Data Source Name (DSN), which has not been provided. If you do not
-require error logging and monitoring via Sentry, no action is necessary.
+If you have not configured Sentry, this error should not affect the functionality of your application. It appears because the app is attempting to link to a Sentry Data Source Name (DSN), which has not been provided. If you do not require error logging and monitoring via Sentry, no action is necessary.
 
 However, if you intend to utilize Sentry for monitoring your app's health, please ensure that you have followed the steps outlined in the Sentry setup documentation. Proper configuration will prevent this error from occurring and allow you to take full advantage of Sentry's capabilities for keeping your app stable and performant.
 

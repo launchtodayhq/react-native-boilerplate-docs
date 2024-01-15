@@ -19,7 +19,7 @@ the **app.json** with the new identifiers, following these instructions:
 
 ## For iOS
 
-1. delete the **ios**
+1. delete the **ios** directory
 2. run **expo run:ios** - this will recreate the **ios** directory. You will be prompted to confirm the bundle identifier for the app
 3. you also need to enable the Sign in with Apple capability in Xcode (follow the instructions [here](https://developer.apple.com/documentation/xcode/adding-capabilities-to-your-app#Add-a-capability))
 4. finally, update the Redirect URL's in the URL configuration section of your Supabase account.

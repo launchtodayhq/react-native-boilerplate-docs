@@ -36,10 +36,10 @@ export const navigation = [
     ],
   },
   {
-    title: 'Authentication',
+    title: 'Supabase Authentication',
     links: [
       {
-        title: 'Setting up Supabase Authentication',
+        title: 'Setup',
         href: '/docs/supabase-auth-setup',
       },
       {
@@ -53,6 +53,15 @@ export const navigation = [
       {
         title: 'Sign in with Magic Links',
         href: '/docs/auth-magic-links',
+      },
+    ],
+  },
+  {
+    title: 'Supabase Database',
+    links: [
+      {
+        title: 'Setup',
+        href: '/docs/supabase-database',
       },
     ],
   },
@@ -91,6 +100,10 @@ export const navigation = [
     ],
   },
   {
+    title: 'Troubleshooting',
+    links: [{ title: 'Troubleshooting', href: '/docs/troubleshooting' }],
+  },
+  {
     title: 'Post Setup',
     links: [
       {
@@ -100,9 +113,5 @@ export const navigation = [
       { title: 'Feedback', href: '/docs/feedback' },
       { title: 'Next steps', href: '/docs/next-steps' },
     ],
-  },
-  {
-    title: 'Troubleshooting',
-    links: [{ title: 'Troubleshooting', href: '/docs/troubleshooting' }],
   },
 ]
