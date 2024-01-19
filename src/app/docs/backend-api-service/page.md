@@ -25,8 +25,8 @@ git clone git@github.com:launchtodayhq/react-native-boilerplate-backend.git [YOU
 
 Alternatively, you can download the source code directly from the latest release:
 
-- [Source code (zip)](https://github.com/launchtodayhq/react-native-boilerplate-upgraded/archive/refs/tags/2.0.1.zip)
-- [Source code (tar.gz)](https://github.com/launchtodayhq/react-native-boilerplate-upgraded/archive/refs/tags/2.0.1.tar.gz)
+- [Source code (zip)](https://github.com/launchtodayhq/react-native-boilerplate-backend/archive/refs/tags/launchtoday-v1.zip)
+- [Source code (tar.gz)](https://github.com/launchtodayhq/react-native-boilerplate-backend/archive/refs/tags/launchtoday-v1.tar.gz)
 
 Once complete, run the following commands:
 
