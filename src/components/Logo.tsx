@@ -1,4 +1,5 @@
 import { useTheme } from 'next-themes'
+import { useEffect, useState } from 'react'
 
 function LogomarkPaths() {
   return (
@@ -19,6 +20,15 @@ export function Logomark(props: React.ComponentPropsWithoutRef<'svg'>) {
 
 export function Logo() {
   let { theme } = useTheme()
+  let [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return <div className="h-6 w-6" />
+  }
 
   if (theme === 'light') {
     return (

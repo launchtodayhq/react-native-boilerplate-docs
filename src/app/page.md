@@ -10,7 +10,7 @@ Welcome to the LaunchToday documentation. Here, you will find essential informat
 
 LaunchToday is a React Native boilerplate app designed to help startups and indie developers build and launch their mobile apps fast. It shifts the focus away from extensive setup, incorporating practical features such as authentication, payments, data handling, analytics, real-time alerts and push notifications.
 
-This boilerplate is organized into two GitHub repositories. The primary repository contains the complete React Native application code showcasing integrations with [Supabase](https://supabase.com/), [Stripe](https://stripe.com/), [RevenueCat](https://www.revenuecat.com/), [Sentry](https://sentry.io/), and [Aptabase](https://aptabase.com/).
+This boilerplate is organized into two GitHub repositories. The primary repository contains the complete React Native application code showcasing integrations with [Supabase](https://supabase.com/), [Stripe](https://stripe.com/), [RevenueCat](https://www.revenuecat.com/), [Sentry](https://sentry.io/), and [Aptabase](https://aptabase.com/). The app is built on [Expo](https://expo.dev/) to ease the development, review and release process.
 
 The secondary repository functions as a backend API service, interacting with the mobile application. It currently supports
 processing payments with Stripe and sending push notifications with Firebase and Apple Push Notification Server.
