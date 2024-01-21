@@ -30,7 +30,7 @@ export function Logo() {
         xmlns="http://www.w3.org/2000/svg"
       >
         <g filter="url(#filter0_dd_1707_13521)">
-          <g clip-path="url(#clip0_1707_13521)">
+          <g clipPath="url(#clip0_1707_13521)">
             <path d="M3 5.5H19V21.5H3V5.5Z" fill="#002420" />
             <path d="M19 21.5H35V37.5H19V21.5Z" fill="#002420" />
             <path d="M3 21.5H19V37.5H3V21.5Z" fill="#002420" />
@@ -116,7 +116,7 @@ export function Logo() {
           xmlns="http://www.w3.org/2000/svg"
         >
           <g filter="url(#filter0_dd_1707_13521)">
-            <g clip-path="url(#clip0_1707_13521)">
+            <g clipPath="url(#clip0_1707_13521)">
               <path
                 d="M3 5.5H19V21.5H3V5.5Z"
                 fill="url(#paint0_linear_1707_13521)"
@@ -256,7 +256,7 @@ export function Logo() {
           xmlns="http://www.w3.org/2000/svg"
         >
           <g filter="url(#filter0_dd_1707_13521)">
-            <g clip-path="url(#clip0_1707_13521)">
+            <g clipPath="url(#clip0_1707_13521)">
               <path
                 d="M3 5.5H19V21.5H3V5.5Z"
                 fill="url(#paint0_linear_1707_13521)"
@@ -395,7 +395,7 @@ export function Logo() {
         xmlns="http://www.w3.org/2000/svg"
       >
         <g filter="url(#filter0_dd_1707_13521)">
-          <g clip-path="url(#clip0_1707_13521)">
+          <g clipPath="url(#clip0_1707_13521)">
             <path d="M3 5.5H19V21.5H3V5.5Z" fill="#002420" />
             <path d="M19 21.5H35V37.5H19V21.5Z" fill="#002420" />
             <path d="M3 21.5H19V37.5H3V21.5Z" fill="#002420" />

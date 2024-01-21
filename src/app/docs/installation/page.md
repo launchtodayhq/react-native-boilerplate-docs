@@ -24,7 +24,7 @@ Once complete, run the following commands:
 ```js
 cd[YOUR_APP_NAME]
 yarn
-cp.env.example.env
+cp .env.example.env .env
 ```
 
 ## Important Reminder
