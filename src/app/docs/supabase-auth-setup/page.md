@@ -37,7 +37,7 @@ Note: to get your IP address, you can run the following command (for MacOS):
 ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}'
 ```
 
-The port needs to be **8081** as this is the port the expo server is running on. For production, refer to [this guide](/production).
+The port needs to be **8081** as this is the port the expo server is running on. For production, refer to [this guide](/docs/production).
 
 ### Redirect URLs
 

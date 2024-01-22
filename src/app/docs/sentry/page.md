@@ -6,11 +6,14 @@ nextjs:
     description: Setting up Sentry with the React Native Boilerplate
 ---
 
-[Sentry](https://sentry.io/welcome/) is an error-tracking platform that helps developers monitor live applications. Included in
-this boilerplate is an example of intentionally throwing an error and sending it to Sentry for further debugging. We will go into
+## Introduction
+
+[Sentry](https://sentry.io/welcome/) is an error-tracking platform that helps developers monitor the health of thier applications. It's typically used to track crashes and errors that occur in your app and providing detailed stack traces for debugging.
+
+Included in this boilerplate is an example of intentionally throwing an error and sending it to Sentry for further debugging. We will go into
 detail on the setup and the example.
 
-The **sentry-expo** library is used to interact with Sentry, and you can find the documentation [here](https://docs.expo.dev/guides/using-sentry/).
+The **@sentry/react-native** library is used to interact with Sentry, and you can find the documentation [here](https://docs.expo.dev/guides/using-sentry/).
 
 {% callout title="Why is Sentry the first integration to setup?" %}
 As part of the build process, there is a **Upload Debug Symbols to Sentry** task that runs which requires an API call to Sentry. In order for this to happen,

@@ -6,10 +6,14 @@ nextjs:
     description: Setting up Stripe with the React Native Boilerplate
 ---
 
+## Introduction
+
+[Stripe](https://stripe.com/gb) is a payment platform designed for developers to implement payment experiences within web and mobile apps. Stripe is ideal for handling one-off transactions and provides an easy to integrate library for rendering payment forms. Included in this boilerplate is an example of purchasing a product using Stripe.
+
 ## Prerequisites
 
 The Stripe integration relies on the backend API service for making payments in Stripe - ensure you have gone through the setup
-guide for the service [here](/api-service).
+guide for the service [here](/docs/backend-api-service).
 
 Taking payments in the app is achieved using [Stripe](https://stripe.com/gb), an online payment processing platform. Here's a diagram
 to explain the process for taking payments:

@@ -11,6 +11,10 @@ export const navigation = [
         title: 'Setting up the React Native Boilerplate',
         href: '/docs/installation',
       },
+      {
+        title: 'Setting up the backend service',
+        href: '/docs/backend-api-service',
+      },
     ],
   },
   {
@@ -31,8 +35,8 @@ export const navigation = [
         title: 'Supabase',
         href: '/docs/supabase',
       },
-      { title: 'Aptabase', href: '/docs/aptabase' },
       { title: 'Stripe', href: '/docs/stripe' },
+      { title: 'Aptabase', href: '/docs/aptabase' },
     ],
   },
   {

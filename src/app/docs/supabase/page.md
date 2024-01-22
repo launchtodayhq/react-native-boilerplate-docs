@@ -6,6 +6,9 @@ nextjs:
     description: Setting up Supabase with the React Native Boilerplate
 ---
 
+## Introduction
+[Supabase](https://supabase.com/) is an open source Firebase alternative for building backed applications. You'd typically use Supabase to provision and manage databases, authentication and file storage.
+
 The boilerplate app interacts with Supabase for persisting and manipulating data using the **supabase** object returned from
 **createClient** in **src/services/supabase/index.ts**:
 

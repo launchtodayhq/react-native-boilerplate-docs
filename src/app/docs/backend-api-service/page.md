@@ -31,9 +31,9 @@ Alternatively, you can download the source code directly from the latest release
 Once complete, run the following commands:
 
 ```js
-cd[YOUR_APP_NAME]
+cd [YOUR_APP_NAME]
 yarn
-cp .env.example.env .env
+cp .env.example.env.env
 ```
 
 ## Launching the service
