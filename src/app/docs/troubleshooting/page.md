@@ -3,7 +3,7 @@ title: Troubleshooting
 nextjs:
   metadata:
     title: Troubleshooting
-    description: Quidem magni aut exercitationem maxime rerum eos.
+    description: Troubleshooting the React Native Boilerplate
 ---
 
 While running the boilerplate app, you may encounter certain issues that can impact your experience.
