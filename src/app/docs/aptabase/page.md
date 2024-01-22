@@ -6,6 +6,8 @@ nextjs:
     description: Setting up Aptabase with the React Native Boilerplate
 ---
 
+## Introduction
+
 [Aptabase](https://aptabase.com/for-react-native) is an open source alternative for Google Analytics for React Native apps. Tracking
 user behaviour is a great way of understanding where most of your users interact with your app. You may want to learn:
 

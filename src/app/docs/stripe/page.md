@@ -13,9 +13,7 @@ nextjs:
 ## Prerequisites
 
 The Stripe integration relies on the backend API service for making payments in Stripe - ensure you have gone through the setup
-guide for the service [here](/docs/backend-api-service).
-
-Taking payments in the app is achieved using [Stripe](https://stripe.com/gb), an online payment processing platform. Here's a diagram
+guide for the service [here](/docs/backend-api-service). Here's a diagram
 to explain the process for taking payments:
 
 ![Stripe Sequence](/images/stripe-sequence.png)

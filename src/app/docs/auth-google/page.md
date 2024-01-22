@@ -108,7 +108,7 @@ complete the following:
 keytool -keystore ./android/app/debug.keystore  -list -v
 ```
 
-You will be prompted to enter a keystore password: the default password for the debug keystore is `android` (you can read more about this
+You will be prompted to enter a keystore password: the default password for the debug keystore is **android** (you can read more about this
 on the Google client auth guide [here](https://developers.google.com/android/guides/client-auth#using_keytool_on_the_certificate)). Once
 you enter the default password, the output should resemble the following:
 

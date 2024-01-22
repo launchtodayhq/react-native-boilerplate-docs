@@ -43,7 +43,7 @@ export const navigation = [
     title: 'Supabase Authentication',
     links: [
       {
-        title: 'Setup',
+        title: 'Setup Supabase Authentication',
         href: '/docs/supabase-auth-setup',
       },
       {
@@ -57,15 +57,6 @@ export const navigation = [
       {
         title: 'Sign in with Magic Links',
         href: '/docs/auth-magic-links',
-      },
-    ],
-  },
-  {
-    title: 'Supabase Database',
-    links: [
-      {
-        title: 'Setup',
-        href: '/docs/supabase-database',
       },
     ],
   },
@@ -106,6 +97,10 @@ export const navigation = [
   {
     title: 'Troubleshooting',
     links: [{ title: 'Troubleshooting', href: '/docs/troubleshooting' }],
+  },
+  {
+    title: 'Request a feature',
+    links: [{ title: 'Request a feature', href: '/docs/feature-request' }],
   },
   {
     title: 'Post Setup',

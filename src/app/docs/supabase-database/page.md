@@ -6,8 +6,27 @@ nextjs:
     description: Setting up Sentry with the React Native Boilerplate
 ---
 
-Supabase is the primary backend the app interacts with for persisting data. The boilerplate app interacts with a Postgres DB and a Storage bucket via the **supabase** object returned from
-**createClient** in **src/services/supabase/index.ts**. There are two example use cases included:
+The boilerplate app interacts with a Postgres DB and a Storage bucket via the **supabase** object returned from
+**createClient** in **src/services/supabase/index.ts**:
+
+```js
+export const supabase = createClient(
+  process.env.EXPO_PUBLIC_SUPABASE_PROJECT_URL,
+  process.env.EXPO_PUBLIC_SUPABASE_API_KEY,
+  {
+    auth: {
+      storage: new LargeSecureStore(),
+      autoRefreshToken: true,
+      persistSession: true,
+      detectSessionInUrl: false,
+    },
+  }
+);
+```
+
+
+
+There are two example use cases included:
 
 1. updating the **profiles** table
 2. storing images in the **avatars** storage bucket
