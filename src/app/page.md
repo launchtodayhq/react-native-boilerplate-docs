@@ -21,7 +21,7 @@ This is what a disclaimer message looks like. You might want to include inline `
 
 ## Join the community
 
-Additionally, support is provided through a dedicated [Discord](https://discord.gg/beEm3hcc) channel where you can seek assistance, learn more about the boilerplate, and engage with the community.
+Additionally, support is provided through a dedicated [Discord](https://discord.gg/8RU6VUvuWK) channel where you can seek assistance, learn more about the boilerplate, and engage with the community.
 
 ## Getting started
 

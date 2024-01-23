@@ -60,15 +60,7 @@ export const navigation = [
       },
     ],
   },
-  {
-    title: 'Push Notifications (Coming Soon)',
-    links: [
-      {
-        title: 'Setting up Push Notifications',
-        href: '/docs/push-notifications',
-      },
-    ],
-  },
+
   {
     title: 'In-app Purchases and Subscriptions with RevenueCat',
     links: [
@@ -95,6 +87,15 @@ export const navigation = [
       {
         title: 'Subscriptions with Google (Coming Soon)',
         href: '/docs/subscriptions-android',
+      },
+    ],
+  },
+  {
+    title: 'Push Notifications (Coming Soon)',
+    links: [
+      {
+        title: 'Setting up Push Notifications',
+        href: '/docs/push-notifications',
       },
     ],
   },
