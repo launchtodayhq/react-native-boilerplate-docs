@@ -73,8 +73,8 @@ export const navigation = [
     title: 'In-app Purchases and Subscriptions with RevenueCat',
     links: [
       {
-        title: 'Setting up RevenueCat',
-        href: '/docs/revenue-cat-setup',
+        title: 'Setting up RevenueCat for iOS',
+        href: '/docs/revenue-cat-setup-ios',
       },
       {
         title: 'In-app Purchases with Apple',
@@ -83,6 +83,10 @@ export const navigation = [
       {
         title: 'Subscriptions with Apple',
         href: '/docs/subscriptions-apple',
+      },
+      {
+        title: 'Setting up RevenueCat for Google',
+        href: '/docs/revenue-cat-setup-google',
       },
       {
         title: 'In-app Purchases with Google (Coming Soon)',
@@ -100,7 +104,7 @@ export const navigation = [
   },
   {
     title: 'Request a feature',
-    links: [{ title: 'Request a feature', href: '/docs/feature-request' }],
+    links: [{ title: 'Request a feature', href: '/docs/request-a-feature' }],
   },
   {
     title: 'Post Setup',
