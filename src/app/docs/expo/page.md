@@ -25,8 +25,8 @@ Visit the Expo website and sign up to create a new account. After successful reg
 In the dashboard, you will be prompted to either create a new Expo project or link to an existing project. Given that this
 boilerplate provides the source code, you are only required to link to the existing codebase.
 
-In the boilerplate project, run the following command (ensure you have the `eas-cli` [installed](https://docs.expo.dev/eas-update/getting-started/)),
-replacing `<project_id>` with your actual project ID:
+In the boilerplate project, run the following command (ensure you have the **eas-cli** [installed](https://docs.expo.dev/eas-update/getting-started/)),
+replacing **<project_id>** with your actual project ID:
 
 ```js
 eas init --id <project-id>

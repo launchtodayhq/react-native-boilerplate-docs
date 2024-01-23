@@ -7,31 +7,34 @@ nextjs:
 ---
 
 ## Introduction
+
 [Supabase](https://supabase.com/) is an open source Firebase alternative for building backed applications. You'd typically use Supabase to provision and manage databases, authentication and file storage.
 
 The boilerplate app interacts with Supabase for persisting and manipulating data using the **supabase** object returned from
 **createClient** in **src/services/supabase/index.ts**:
 
 ```js
-export const supabase = createClient(
-  process.env.EXPO_PUBLIC_SUPABASE_PROJECT_URL,
-  process.env.EXPO_PUBLIC_SUPABASE_API_KEY,
-  {
-    auth: {
-      ...
-    },
-  },
-)
+export const supabase =
+  SUPABASE_PROJECT_URL && SUPABASE_API_KEY
+    ? createClient(SUPABASE_PROJECT_URL, SUPABASE_API_KEY, {
+        auth: {
+          storage: new LargeSecureStore(),
+          autoRefreshToken: true,
+          persistSession: true,
+          detectSessionInUrl: false,
+        },
+      })
+    : null
 ```
 
 There are two example use cases included:
 
 1. updating rows in a Postgres database, specifically a table named **profiles** and the fields are updated from the app
-2. storing images in a Storage bucket, specifically storing images uploaded from the app
+2. storing images in a Storage bucket, specifically storing images uploaded from the app in a folder named **avatars**
 
 ## Getting started
 
-This project incorporates the User Management Starter from the Quickstarts in Supabase, a collection of pre-configured SQL queries designed for quick deployment. These queries facilitate the quick creation of tables and columns. Specifically, they are used here to establish a Postgres database with a table named **profiles** with the follwing columns:
+This project incorporates the User Management Starter from the Quickstarts in Supabase, a collection of pre-configured SQL queries designed for quick deployment. These queries facilitate the quick creation of tables and columns. Specifically, they are used here to establish a Postgres database with a **profiles** table with the follwing columns:
 
 ```js
 create table profiles (
@@ -123,6 +126,12 @@ This boilerplate includes basic examples of how to interact with your Supabase d
 
 Once you've created the correct table and storage bucket in Supabase, you should be able to persist and manipulate data from the app as
 shown in the demo [here](https://www.veed.io/embed/3f9d02e3-466f-48c5-96bd-f029d46fb6b8).
+
+## Next steps
+
+Now that we have setup Supabase, the next natural step is to add suport for authentication (signing in with Google, Apple and Magic Links). You can follow the guide here, or you can continue with the next chapter (setting up Stripe).
+
+Having successfully established the Supabase configuration, the subsequent phase involves integrating authentication. This includes enabling sign-in options via Google, Apple, and Magic Links. For detailed guidance, you can refer to the guide [here](docs/supabase-auth-setup). Alternatively, you may continue on with the next chapter (setting up Stripe).
 
 {% quick-links %}
 
