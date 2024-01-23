@@ -107,6 +107,10 @@ export const navigation = [
     links: [{ title: 'Request a feature', href: '/docs/featureRequest' }],
   },
   {
+    title: 'New Features',
+    links: [{ title: 'Request a feature', href: '/docs/new-features' }],
+  },
+  {
     title: 'Post Setup',
     links: [
       {
