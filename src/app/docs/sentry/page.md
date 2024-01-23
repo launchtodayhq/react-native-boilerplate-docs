@@ -82,19 +82,7 @@ variables:
 
 ## Running the project
 
-After completing the above steps and setting up Sentry, you will be able to run the application.
-
-For iOS, running the following command:
-
-```js
-yarn run ios
-```
-
-For Android, running the following command:
-
-```js
-yarn run android
-```
+After completing the above steps and setting up Sentry, you will be able to run the application using **npx expo run**.
 
 {% quick-links %}
 
