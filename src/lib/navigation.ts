@@ -62,10 +62,11 @@ export const navigation = [
   },
 
   {
-    title: 'In-app Purchases and Subscriptions with RevenueCat',
+    title:
+      'App Store Connect - In-app Purchases and Subscriptions with RevenueCat',
     links: [
       {
-        title: 'Setting up RevenueCat for iOS',
+        title: 'Setting up RevenueCat for App Store Connect',
         href: '/docs/revenue-cat-setup-ios',
       },
       {
@@ -76,16 +77,22 @@ export const navigation = [
         title: 'Subscriptions with Apple',
         href: '/docs/subscriptions-apple',
       },
+    ],
+  },
+  {
+    title:
+      'Google Play Store - In-app Purchases and Subscriptions with RevenueCat',
+    links: [
       {
-        title: 'Setting up RevenueCat for Google',
+        title: 'Setting up RevenueCat for Google Play Store',
         href: '/docs/revenue-cat-setup-google',
       },
       {
-        title: 'In-app Purchases with Google (Coming Soon)',
+        title: 'In-app Purchases (Coming Soon)',
         href: '/docs/in-app-purchases-google',
       },
       {
-        title: 'Subscriptions with Google (Coming Soon)',
+        title: 'Subscriptions (Coming Soon)',
         href: '/docs/subscriptions-android',
       },
     ],

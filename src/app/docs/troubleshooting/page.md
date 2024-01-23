@@ -66,3 +66,32 @@ Unable to resolve "../../Utilities/Platform" from "node_modules/react-native/Lib
 ```
 
 The issue stems from the [@stripe/stripe-react-native](https://www.npmjs.com/package/@stripe/stripe-react-native?activeTab=readme) library, which currently does not support web compilation. According to Expo's [documentation](https://docs.expo.dev/versions/latest/sdk/stripe/), this library is compatible exclusively with iOS and Android devices/simulators. However, this limitation should not hinder the overall development and building of your app as it pertains solely to the incompatibility of one library with web platforms. The ongoing solution involves leveraging React Native's [Platform-specific extensions](https://reactnative.dev/docs/platform-specific-code#platform-specific-extensions) to ensure that Stripe functionalities are accessible only on mobile platforms, and not on the web (this is currntly WIP).
+
+## Android Gradle plugin requires Java 17 to run. You are currently using Java 16.
+
+```js
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/Users/paulwaweru/Projects/launchtodayhq/react-native-boilerplate-upgraded/android/app/build.gradle' line: 1
+
+* What went wrong:
+A problem occurred evaluating project ':app'.
+> Failed to apply plugin 'com.android.internal.application'.
+   > Android Gradle plugin requires Java 17 to run. You are currently using Java 16.
+      Your current JDK is located in /Library/Java/JavaVirtualMachines/adoptopenjdk-16.jdk/Contents/Home
+      You can try some of the following options:
+       - changing the IDE settings.
+       - changing the JAVA_HOME environment variable.
+       - changing `org.gradle.java.home` in `gradle.properties`.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 47s
+15 actionable tasks: 15 executed
+Error: /Users/paulwaweru/Projects/launchtodayhq/react-native-boilerplate-upgraded/android/gradlew exited with non-zero code: 1
+```
