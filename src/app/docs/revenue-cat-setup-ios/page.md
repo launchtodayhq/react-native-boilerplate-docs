@@ -1,9 +1,9 @@
 ---
-title: Setting up RevenueCat for iOS
+title: Setting up RevenueCat with App Store Connect
 nextjs:
   metadata:
-    title: Setting up RevenueCat for iOS
-    description: Setting up RevenueCat with the React Native Boilerplate
+    title: Setting up RevenueCat with App Store Connect
+    description: etting up RevenueCat with App Store Connect
 ---
 
 ## Introduction
