@@ -36,13 +36,4 @@ Once your project is created, we're interested in setting up an Android app. Let
 
 ![RevenueCat Setup](/images/revenue-cat-android-setup.gif)
 
-Upon adding the app name, bundle ID and the secret, click **_save changes_** on the top right. You will then be presented
-with the option to set the **_in-app purchase key configuration_** and the **_App Store Connect API_**. Follow the links provided on how to add
-the keys:
-
-- In-App Purchase Key Configuration ([link](https://www.revenuecat.com/docs/in-app-purchase-key-configuration))
-- App Store Connect API ([link](https://www.revenuecat.com/docs/app-store-connect-api-key-configuration))
-
-![RevenueCat Setup](/images/revenue-cat-apple.png)
-
-The next steps will cover creating in-app purchases and subscriptions in App Store Connect.
+The next steps will cover creating in-app purchases and subscriptions in Google Play Store.
