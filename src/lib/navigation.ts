@@ -93,7 +93,7 @@ export const navigation = [
       },
       {
         title: 'Subscriptions (Coming Soon)',
-        href: '/docs/subscriptions-android',
+        href: '/docs/subscriptions-google',
       },
     ],
   },
