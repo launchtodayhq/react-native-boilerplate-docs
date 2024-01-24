@@ -10,11 +10,13 @@ nextjs:
 
 [Stripe](https://stripe.com/gb) is a payment platform designed for developers to implement payment experiences within web and mobile apps. Stripe is ideal for handling one-off transactions and provides an easy to integrate library for rendering payment forms. Included in this boilerplate is an example of purchasing a product using Stripe.
 
-## Prerequisites
-
+{% callout type="warning" title="Setup the backend API before continuing" %}
 The Stripe integration relies on the backend API service for making payments in Stripe - ensure you have gone through the setup
-guide for the service [here](/docs/backend-api-service). Here's a diagram
-to explain the process for taking payments:
+guide for the service [here](/docs/backend-api-service).
+{% /callout %}
+
+## API Walkthrough 
+Here's a diagram to explain the process for taking payments through Stripe:
 
 ![Stripe Sequence](/images/stripe-sequence.png)
 

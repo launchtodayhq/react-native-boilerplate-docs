@@ -67,7 +67,9 @@ Unable to resolve "../../Utilities/Platform" from "node_modules/react-native/Lib
 
 The issue stems from the [@stripe/stripe-react-native](https://www.npmjs.com/package/@stripe/stripe-react-native?activeTab=readme) library, which currently does not support web compilation. According to Expo's [documentation](https://docs.expo.dev/versions/latest/sdk/stripe/), this library is compatible exclusively with iOS and Android devices/simulators. However, this limitation should not hinder the overall development and building of your app as it pertains solely to the incompatibility of one library with web platforms. The ongoing solution involves leveraging React Native's [Platform-specific extensions](https://reactnative.dev/docs/platform-specific-code#platform-specific-extensions) to ensure that Stripe functionalities are accessible only on mobile platforms, and not on the web (this is currntly WIP).
 
-## Android Gradle plugin requires Java 17 to run. You are currently using Java 16.
+## Android Gradle plugin requires Java 17 to run. You are currently using Java 16 _or_ The operation couldn't be completed. Unable to locate Java Runtime
+
+When running the boilerplate app on the Android emulator, you might encounter Java version issues or problems in locating the Java Runtime, indicated by errors such as "Android Gradle plugin requires Java 17 to run. You are currently using Java 16" or "The operation couldn't be completed. Unable to locate Java Runtime.":
 
 ```js
 FAILURE: Build failed with an exception.
@@ -84,14 +86,15 @@ A problem occurred evaluating project ':app'.
        - changing the IDE settings.
        - changing the JAVA_HOME environment variable.
        - changing `org.gradle.java.home` in `gradle.properties`.
+       ...
 
-* Try:
-> Run with --stacktrace option to get the stack trace.
-> Run with --info or --debug option to get more log output.
-> Run with --scan to get full insights.
-> Get more help at https://help.gradle.org.
+// or
 
-BUILD FAILED in 1m 47s
-15 actionable tasks: 15 executed
-Error: /Users/paulwaweru/Projects/launchtodayhq/react-native-boilerplate-upgraded/android/gradlew exited with non-zero code: 1
+> Building app...
+The operation couldn't be completed. Unable to locate a Java Runtime
+Please visit http://www.java.com for information on installing Java.
 ```
+
+To resolve this, ensure you have installed Android Studio. You then need to head over to Preferences (using command + , on your keyboard) > Build, Execution, Deployment > Build Tools > Gradle and ensure the Gradle JDK is set to the required version. As of January 24, 2024, using the jbr-17 runtime should solve these issues.
+
+![Aptabase Register](/images/java-version.png)
