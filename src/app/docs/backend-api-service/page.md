@@ -31,9 +31,9 @@ Alternatively, you can download the source code directly from the latest release
 Once complete, run the following commands:
 
 ```js
-cd [YOUR_APP_NAME]
+cd[YOUR_APP_NAME]
 yarn
-cp .env.example.env.env
+cp.env.example.env.env
 ```
 
 ## Launching the service
@@ -80,6 +80,6 @@ restart the expo application whenever you update the **.env** file to ensure exp
 
 {% quick-links %}
 
-{% quick-link title="Troubleshooting" icon="installation" href="/docs/installation" description="Checkout this guide for troubleshooting steps. Still stuck? Feel free to post in the Discord channel for help." /%}
+{% quick-link title="Troubleshooting" icon="warning" href="/docs/troubleshooting" description="Checkout this guide for troubleshooting steps. Still stuck? Feel free to post in the Discord channel for help." /%}
 
 {% /quick-links %}

@@ -22,9 +22,9 @@ Alternatively, you can download the source code directly from the latest release
 Once complete, run the following commands to install the dependencies and make a copy of the \***\*.env.example\*\*** file (we'll be making changes to the copied file late):
 
 ```js
-cd [YOUR_APP_NAME]
+cd[YOUR_APP_NAME]
 yarn
-cp .env.example .env
+cp.env.example.env
 ```
 
 You will the be able to run the app using **npx expo run** where you will be prompted to choose which platform you'd like to run the app on. Alternatively, you can use the following commands:
@@ -42,6 +42,6 @@ required to ensure each integration works as expected, including creating accoun
 
 {% quick-links %}
 
-{% quick-link title="Troubleshooting" icon="installation" href="/docs/installation" description="Checkout this guide for troubleshooting steps. Still stuck? Feel free to post in the Discord channel for help." /%}
+{% quick-link title="Troubleshooting" icon="warning" href="/docs/troubleshooting" description="Checkout this guide for troubleshooting steps. Still stuck? Feel free to post in the Discord channel for help." /%}
 
 {% /quick-links %}

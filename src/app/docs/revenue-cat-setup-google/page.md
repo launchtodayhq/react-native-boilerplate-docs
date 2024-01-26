@@ -10,7 +10,7 @@ nextjs:
 The documentation for setting up RevenueCat with Google Play Store is currently under development. In the meantime, the feature is available for use. If you encounter any problems, do post in the Discord channel where you will recieve support.
 {% /callout %}
 
-[RevenueCat](https://www.revenuecat.com/) is a mobile SDK and API for managing in-app subscriptions. RevenueCat communicates with the App Store and Google Play Store and removes the complexity of taking payments in your app.
+[RevenueCat](https://www.revenuecat.com/) is a mobile SDK and API for managing in-app purchases and subscriptions. RevenueCat communicates with the App Store and Google Play Store and removes the complexity of taking payments in your app.
 
 This part of the documentation will focus on setting up RevenueCat with the Google Play Store to implement in-app purchases and subscriptions for iOS. The App Store Connect (iOS) counterpart is documented [here](/docs/revenue-cat-setup-ios).
 
@@ -36,4 +36,10 @@ Once your project is created, we're interested in setting up an Android app. Let
 
 ![RevenueCat Setup](/images/revenue-cat-android-setup.gif)
 
-The next steps will cover creating in-app purchases and subscriptions in Google Play Store.
+The next steps will cover prerequisite steps creating in-app purchases and subscriptions in Google Play Store.
+
+{% quick-links %}
+
+{% quick-link title="Troubleshooting" icon="warning" href="/docs/troubleshooting" description="Checkout this guide for troubleshooting steps. Still stuck? Feel free to post in the Discord channel for help." /%}
+
+{% /quick-links %}

@@ -54,6 +54,6 @@ official documentation [here](https://docs.expo.dev/).
 
 {% quick-links %}
 
-{% quick-link title="Troubleshooting" icon="installation" href="/docs/installation" description="Checkout this guide for troubleshooting steps. Still stuck? Feel free to post in the Discord channel for help." /%}
+{% quick-link title="Troubleshooting" icon="warning" href="/docs/troubleshooting" description="Checkout this guide for troubleshooting steps. Still stuck? Feel free to post in the Discord channel for help." /%}
 
 {% /quick-links %}

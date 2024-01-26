@@ -29,7 +29,9 @@ export function Hero() {
                 payments, data handling, push notifications and more.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                <Button href="/">Get started</Button>
+                <Button href="/#getting-started">
+                  Get started
+                </Button>
                 <Button
                   variant="secondary"
                   target="_blank"

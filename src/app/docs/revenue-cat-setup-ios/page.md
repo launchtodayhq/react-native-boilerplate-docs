@@ -8,7 +8,7 @@ nextjs:
 
 ## Introduction
 
-[RevenueCat](https://www.revenuecat.com/) is a mobile SDK and API for managing in-app subscriptions. RevenueCat communicates with the App Store and Google Play Store and removes the complexity of taking payments in your app.
+[RevenueCat](https://www.revenuecat.com/) is a mobile SDK and API for managing in-app purchases and subscriptions. RevenueCat communicates with the App Store and Google Play Store and removes the complexity of taking payments in your app.
 
 This part of the documentation will focus on setting up RevenueCat with the App Store to implement in-app purchases and subscriptions for iOS. The Android counterpart is documented [here](/docs/revenue-cat-setup-google).
 
@@ -21,7 +21,7 @@ This part of the documentation will focus on setting up RevenueCat with the App 
 
 ## Create RevenueCat account and project
 
-Head over to  [RevenueCat](https://www.revenuecat.com/) and create your account. Once complete, you should be able to create
+Head over to [RevenueCat](https://www.revenuecat.com/) and create your account. Once complete, you should be able to create
 a new project. Give your project a name and click **_create project_**:
 
 ![RevenueCat Setup](/images/revenue-cat-step-1.gif)

@@ -97,4 +97,35 @@ Please visit http://www.java.com for information on installing Java.
 
 To resolve this, ensure you have installed Android Studio. You then need to head over to Preferences (using command + , on your keyboard) > Build, Execution, Deployment > Build Tools > Gradle and ensure the Gradle JDK is set to the required version. As of January 24, 2024, using the jbr-17 runtime should solve these issues.
 
-![Aptabase Register](/images/java-version.png)
+![Java version](/images/java-version.png)
+
+## Credentials Need Attention - Permissions to call Subscriptions API.
+
+When [setting up RevenueCat for the Google Play Store](https://www.revenuecat.com/docs/creating-play-service-credentials), you might encounter a permissions issue with your Service Account Credentials, particularly regarding access to the subscriptions API. To navigate this smoothly, follow these steps carefully:
+
+![RevenueCat Creds](/images/revenuecat-creds.png)
+
+Here is a list of checks to ensure this works:
+
+1. Ensure the **AndroidManifest.xml** file is unchanged and has the **BILLING** permission enabled:
+
+```js
+...
+ <uses-permission android:name="android.vending.BILLING"/>
+...
+```
+
+2. Use **eas build -p android** to create an Android App Bundle (AAB). This bundle is what you'll upload to the Google Play Store
+
+{% callout type="warning" title="Update the versionCode and versionName for every new upload" %}
+Always update the **versionCode** and **versionName** for each new AAB upload. The Google Play Store uses versionCode to identify each unique build, and synchronizing the versionName with versionCode keeps your app versions organized.
+{% /callout %}
+
+3. Navigate to the App bundle explorer on the Google Play Store and upload the AAB file you generated in the previous step.
+   ![Download Aab and upload to Google Play Store](/images/aab.gif)
+
+4. Create a new internal testing release track and add the uploaded AAB. Don't forget to also set up a list of internal testers for this release.
+   ![Attach AAB to Internal Release Track](/images/upload-aab.gif)
+   ![Create internal testers for release](/images/internal-testers.gif)
+
+After completing these steps, you may need to generate a new Service Account Credentials JSON file by following the instructions provided [here](https://www.revenuecat.com/docs/creating-play-service-credentials). Once done, it's advisable to allow approximately 24-48 hours for these credentials to synchronize with RevenueCat.

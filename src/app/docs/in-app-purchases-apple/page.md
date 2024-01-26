@@ -12,13 +12,15 @@ In-app purchases are one-off items that your customers can purchase. They are cr
 2. Crystal Ball (consumable)
 3. Spell Book (non-consumable)
 
-All the code - including the screens to navigate to this example and the RevenueCat integration - are all included in the boilerplate. This
-guide focuses on setting up the necessary products for RevenueCat to feed into the app via a paywall.
+{% callout title="What are consumable and non-consumable items?" %}
+Consumable items are items that can be purchased more than once - non-consumables items can only be purchased once.
+{% /callout %}
+
+All the code - including the screens to navigate to this example and the RevenueCat integration - are all included in the boilerplate. This guide focuses on setting up the necessary products for RevenueCat to feed into the app via a paywall.
 
 ## Create in-app purchases in App Store Connect
 
-Once you have added your app to App Store Connect, create an in-app purchase. We are going to create the three items that are displayed on the
-paywall. Set the **Type**, **Reference Name** and **Product ID** as follows:
+Once you have added your app to App Store Connect, create an in-app purchase. We are going to create the three items that are displayed on the paywall. Set the **Type**, **Reference Name** and **Product ID** as follows:
 
 | Product       | Type           | Reference Name     | Product ID         |
 | ------------- | -------------- | ------------------ | ------------------ |

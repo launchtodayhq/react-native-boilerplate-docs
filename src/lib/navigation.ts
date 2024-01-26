@@ -70,11 +70,11 @@ export const navigation = [
         href: '/docs/revenue-cat-setup-ios',
       },
       {
-        title: 'In-app Purchases with Apple',
+        title: 'In-app Purchases on iOS',
         href: '/docs/in-app-purchases-apple',
       },
       {
-        title: 'Subscriptions with Apple',
+        title: 'Subscriptions on iOS',
         href: '/docs/subscriptions-apple',
       },
     ],
@@ -88,11 +88,12 @@ export const navigation = [
         href: '/docs/revenue-cat-setup-google',
       },
       {
-        title: 'In-app Purchases (Coming Soon)',
+        title: 'In-app Purchases on Android',
         href: '/docs/in-app-purchases-google',
       },
+
       {
-        title: 'Subscriptions (Coming Soon)',
+        title: 'Subscriptions on Android',
         href: '/docs/subscriptions-google',
       },
     ],
