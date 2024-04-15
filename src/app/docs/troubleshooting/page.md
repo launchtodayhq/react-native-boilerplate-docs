@@ -129,3 +129,19 @@ Always update the **versionCode** and **versionName** for each new AAB upload. T
    ![Create internal testers for release](/images/internal-testers.gif)
 
 After completing these steps, you may need to generate a new Service Account Credentials JSON file by following the instructions provided [here](https://www.revenuecat.com/docs/creating-play-service-credentials). Once done, it's advisable to allow approximately 24-48 hours for these credentials to synchronize with RevenueCat.
+
+## Error: xcrun exited with non-zero code: 115
+
+While running `yarn ios` as part of starting the app with the iOS simulator, you may encounter this error:
+
+```js
+Error: xcrun exited with non-zero code: 115
+An error was encountered processing the command (domain=LSApplicationWorkspaceErrorDomain, code=115):
+Simulator device returned an error for the requested operation.
+Underlying error (domain=LSApplicationWorkspaceErrorDomain, code=115):
+	The operation couldn’t be completed. (LSApplicationWorkspaceErrorDomain error 115.)
+Error: xcrun exited with non-zero code: 115
+    at ChildProcess.completionListener (/Users/...
+```
+
+To fix this error, simply run `yarn start` to start the development server which will remove the error.
